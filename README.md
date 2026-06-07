@@ -1,6 +1,6 @@
-# SD Forge Iterative Hires
+# SD Forge Iterative Upscale
 
-Iterative Hires is for Stable Diffusion WebUI Forge Neo that turns a single Hires Fix upscale into multiple smaller hires passes.
+This Stable Diffusion WebUI Forge Neo extension that turns a single Hires Fix upscale into multiple smaller hires passes.
 
 Instead of jumping directly from the base image to the final Hires Fix resolution, the extension builds a geometric resolution progression and runs each stage through Forge's normal hires pipeline. This can make large upscales easier to tune because later passes can use different CFG, step count, and denoising values.
 
