@@ -4,6 +4,8 @@ This Stable Diffusion WebUI Forge Neo extension that turns a single Hires Fix up
 
 Instead of jumping directly from the base image to the final Hires Fix resolution, the extension builds a geometric resolution progression and runs each stage through Forge's normal hires pipeline. This can make large upscales easier to tune because later passes can use different CFG, step count, and denoising values.
 
+<img width="1141" height="391" alt="image" src="https://github.com/user-attachments/assets/009fc992-83c0-4166-b8c4-32144287b4bf" />
+
 ## Features
 
 - Works with both direct HR Fix, and quick-upscale HR Fix (sparkle button.)
