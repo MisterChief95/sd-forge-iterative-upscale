@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-TITLE = "Iterative Hires"
+TITLE = "Iterative Upscale"
 TXT2IMG_FIXED_ARG_COUNT = 25
 
 

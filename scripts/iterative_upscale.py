@@ -10,7 +10,7 @@ from modules.ui_components import FormRow, InputAccordion
 class Script(scripts.Script):
     section = "accordions"
     create_group = False
-    sorting_priority = 3
+    sorting_priority = -1
 
     def title(self):
         return TITLE
